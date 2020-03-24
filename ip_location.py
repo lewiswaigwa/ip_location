@@ -39,7 +39,7 @@ class Locate:
 
 		elif choice == "Y" or choice == "y":
 			filename = input(f"{Fore.RED}[{Fore.BLUE}*{Fore.RED}]{Fore.GREEN}Enter a name for text file to save output:{Fore.YELLOW}")
-			file = open(filename+"txt", "w")
+			file = open(filename+".txt", "w")
 
 		else:
 			print(colored("[-] Invalid choice!!Exiting"))
